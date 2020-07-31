@@ -1,3 +1,6 @@
 module.exports = {
-    entry: './test.js'
+    entry: './src/index.js',
+    output: {
+        filename: 'lib.js'
+    }
 }
